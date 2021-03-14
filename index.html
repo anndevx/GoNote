@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
- <head>
- <title>GoNote</title>
- </head>
- <body>
- <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
-<h1>GoNote</h1>
- <p>Tutaj pojawi się lista notatek.</p>
- <ol>
- <li>Nil</li>
- <li>Amazonka</li>
- <li>Jangcy</li>
-  <li>Wisła</li>
-</ol>
-<a href="https://google.com">Szukarka</a>
-	<!-- Komentarz -->
+	<head>
+		<title>GoNote</title>
+		 <link rel="stylesheet" href="customstyle.css">
+		 
+	</head>
+	<body>
+		<img src="./background.jpg" alt="Tło" width="100%" height="auto"/>
+	<div>
+		<h1>GO Note</h1>
+		<p>Aplikacja do zarządzania swoimi <strong><em>notatkami</em></strong>.</p>
+	</div>
+	<br />
+	<div>
+		<h2>Moje notatki</h2>
+		<p>Tutaj pojawi się lista notatek.</p>
+	</div>
+	<br />
+		<h2>Dodaj notatkę</h2>
 	<form>
-		<input type="text" placeholder="Your name">
-		<input type="password" minlength="8">
-		<button type="submit">Wyślij</button>
-		<button type="reset">Clear</button>
-		<input type="checkbox"> Akceptuję regulamin
-		<select name="values">
-			 <option value="1">Value 1</option>
-			 <option value="2" selected>Value 2</option>
-			 <option value="3">Value 3</option>
-		</select>
+	<div>
+		<label for="note-title">Tytuł notatki</label>
+		<input placeholder="..." id="note-title" type="text" />
+	</div>
+	 <div>
+		<label for="note-content">Zawartość notatki</label>
+		<input placeholder="..." id="note-content" type="text" />
+	 </div>
+	 <div>
+		<button type="submit">Zapisz</button>
+	 </div>
+	 <br />
+		<a href="https://google.com">©2021 Polityka prywatności | Warunki korzystania z usługi</a>
 	</form>
- </body>
+	</body>
 </html>
-
