@@ -1,3 +1,39 @@
-p {
- color: blue;
+input {
+ color: black;
+ border-radius: 5px;
+ border: 1px solid grey;
+ margin-bottom: 10px;
 }
+
+.cover {
+ background-image: url("bg.jpg");
+ background-position: center;
+ background-size: cover;
+ min-height: 150px;
+}
+
+img {
+	border: 2px solid #54C03F;
+	border-radius: 50%;
+}
+
+body {
+	font-family: Arial;
+}
+
+.main-header {
+	background-color: #D1FAD2;
+	padding: 10px;
+}
+
+h1, h2 {
+	font-variant: small-caps;
+	color: green;
+}
+
+a {
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: none;
+}
+
